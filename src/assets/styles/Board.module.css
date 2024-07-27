@@ -1,0 +1,22 @@
+.board__container {
+    display: flex;
+    gap: 10rem;
+}
+
+.board__squares {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.history__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

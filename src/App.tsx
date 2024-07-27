@@ -6,15 +6,16 @@ import './assets/styles/index.css';
 
 const BoardContainer = styled.div`
   display: flex;
-  align-items: center;
   flex-direction: column;
   flex: 1 1 auto;
   height: 100%;
-`;
-
-const AppContainerFlex = styled.div`
+  padding: 2rem;
+  `;
+  
+  const AppContainerFlex = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 4rem;
   min-height: 100vh;
   background: #f3f5f9;
 `;

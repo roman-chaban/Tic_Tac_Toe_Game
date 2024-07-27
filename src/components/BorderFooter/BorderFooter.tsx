@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import { colors } from '../../constants/colors';
 
 const BoardFooterContainer = styled.footer`
   display: flex;
   justify-content: center;
-  background: orange;
+  background: ${colors.success};
   padding: 20px;
   color: #fff;
 `;

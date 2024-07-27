@@ -12,7 +12,6 @@ const CustomButton = styled.button`
   color: #fff;
   border: none;
   outline: none;
-  margin-top: 30px;
   font-weight: 700;
   font-size: 1rem;
   cursor: pointer;
