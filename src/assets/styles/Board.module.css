@@ -1,6 +1,8 @@
 .board__container {
     display: flex;
-    gap: 10rem;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: start;
 }
 
 .board__squares {
@@ -15,8 +17,57 @@
     gap: 2rem;
 }
 
+.history__item {
+    padding-left: 1rem;
+}
+
+.history__title {
+    font-size: 1.15rem;
+}
+
 .history__buttons {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.board__container {
+    animation: fadeIn 1s ease-out;
+}
+
+.board__squares {
+    animation: fadeIn 1s ease-out;
+}
+
+.square {
+    animation: bounce 0.5s ease;
+}
+
+.history__buttons {
+    animation: fadeIn 1s ease-out;
+}
+
+button {
+    animation: bounce 0.5s ease;
 }

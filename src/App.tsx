@@ -10,14 +10,16 @@ const BoardContainer = styled.div`
   flex: 1 1 auto;
   height: 100%;
   padding: 2rem;
-  `;
-  
-  const AppContainerFlex = styled.div`
+  animation: fadeIn 1s ease-out;
+`;
+
+const AppContainerFlex = styled.div`
   display: flex;
   flex-direction: column;
   gap: 4rem;
   min-height: 100vh;
   background: #f3f5f9;
+  animation: fadeIn 1s ease-out;
 `;
 
 export const App: FC = () => {
